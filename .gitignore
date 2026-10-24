@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Outputs
+*.png
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
