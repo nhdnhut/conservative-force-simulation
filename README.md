@@ -1,4 +1,4 @@
-# Conservative Force and Energy Simulation Suite
+﻿# Conservative Force and Energy Simulation Suite
 
 > A scientific simulation suite and interactive graphical application studying the kinetic and potential energy of a particle moving under an anharmonic conservative force.
 > Numerical ODE Solver (Runge-Kutta RK45) | Symbolic Engine (SymPy) | CustomTkinter GUI | CLI Exporter | MATLAB Parity
@@ -49,7 +49,7 @@ $$E = K(t) + U(t) = \frac{1}{2}m v(t)^2 - \frac{1}{2}k x(t)^2 + q x(t)^4 = \text
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/nhutnhd/conservative-force-simulation.git
+git clone https://github.com/nhdnhut/conservative-force-simulation.git
 cd conservative-force-simulation
 
 # Install dependencies
@@ -82,22 +82,23 @@ pytest tests/ -v
 
 ```
 conservative-force-simulation/
-├── main.py                          # Launcher entry point (auto-detects GUI/CLI)
-├── gui.py                           # CustomTkinter graphical user interface
-├── physics.py                       # Physics equations and numerical ODE solver
-├── cli.py                           # Command-line interface and plot exporter
-├── project9_conservative_force.m    # MATLAB implementation equivalent
-├── REPORT.md                        # Academic lab report and mathematical derivations
-├── tests/                           # Pytest unit tests
-│   ├── conftest.py
-│   └── test_physics.py
-├── LICENSE                          # MIT License
-└── README.md                        # Project documentation
+â”œâ”€â”€ main.py                          # Launcher entry point (auto-detects GUI/CLI)
+â”œâ”€â”€ gui.py                           # CustomTkinter graphical user interface
+â”œâ”€â”€ physics.py                       # Physics equations and numerical ODE solver
+â”œâ”€â”€ cli.py                           # Command-line interface and plot exporter
+â”œâ”€â”€ project9_conservative_force.m    # MATLAB implementation equivalent
+â”œâ”€â”€ REPORT.md                        # Academic lab report and mathematical derivations
+â”œâ”€â”€ tests/                           # Pytest unit tests
+â”‚   â”œâ”€â”€ conftest.py
+â”‚   â””â”€â”€ test_physics.py
+â”œâ”€â”€ LICENSE                          # MIT License
+â””â”€â”€ README.md                        # Project documentation
 ```
 
 ---
 
 ## 5. Author and License
 
-- Author: Nhut Nguyen (@nhutnhd)
+- Author: Nhut Nguyen (@nhdnhut)
 - License: MIT License (see [LICENSE](LICENSE))
+
