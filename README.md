@@ -30,7 +30,7 @@ $$E = K(t) + U(t) = \frac{1}{2}m v(t)^2 - \frac{1}{2}k x(t)^2 + q x(t)^4 = \text
    - Analytical turning point determination via energy intersection $U(x) = E_0$.
 2. High-Precision Numerical Integration:
    - Adaptive Runge-Kutta (RK45) integration with strict error tolerances (relative tolerance $10^{-10}$).
-   - Numerical verification of energy conservation with drift deltas $\Delta E / E_0 < 10^{-7}\%$.
+   - Numerical verification of energy conservation with drift deltas $\Delta E / E_0 \lt 10^{-7}\%$.
 3. Interactive Graphical User Interface:
    - Energy Analysis: Real-time curves for kinetic energy $K(t)$, potential energy $U(t)$, total energy $E(t)$, and numerical drift.
    - Phase Space Orbits: Parametric phase plane visualization $(x, v)$ illustrating bound periodic orbits.
